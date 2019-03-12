@@ -21,21 +21,17 @@ header, footer{
 	display: grid;
 	grid-template-columns: 50% 50%;
 }
-/*
-.container div{
-	float: left;
-	margin: 10px; 
-	width: 46%;
-	background-color: #dee8f9;
-	border: 1px solid gray;
-	text-align: center;
+
+.column{
+	
+
 }
-*/
 .column div{
 	margin: 10px; 
 	background-color: #dee8f9;
 	border: 1px solid gray;
 	text-align: center;
+	box-sizing: border-box;
 }
 .block1 {
 	height: 150px;
@@ -53,7 +49,7 @@ header, footer{
 	height: 175px;
 }
 .block6 {
-	height: 150px;
+	height: 160px;
 }
 .block7 {
 	height: 100px;
